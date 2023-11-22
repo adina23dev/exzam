@@ -1,0 +1,685 @@
+*{
+    padding: 0; 
+    margin: 0;
+ }
+ body{
+    background-color: #EDFBF9;
+ }
+ .container{
+     width: 90%;
+     margin: 0 auto;
+ }
+  a{
+    text-decoration: none; 
+  }
+ #header-hero{
+   position: sticky;
+   top: 0;
+   z-index: 99;
+   backdrop-filter: blur(5px);
+   background: #edfbf981;
+
+ }
+  .header-hero{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     text-align: center;
+  }
+  .header-nav a{
+     color: #000;
+     font-size: 20px;
+     font-weight: 400;
+     padding: 0 50px;
+  }
+  .header-nav a:hover{
+     color:  #1A7F72;
+     text-decoration: underline;
+     
+  }
+  #body{
+    background: url(./foto/Frame\ 14.png) no-repeat center/ cover;
+    
+  }
+  .body{
+     display: flex;
+     align-items: center;
+ justify-content: space-between;
+ flex-direction: column;
+  }
+  .body-hand{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .body-hand h1{
+    font-family: 'Merienda', cursive;
+     width: 800px;
+ font-size: 68px;
+ color: white;
+ font-weight: 400;
+ line-height: 130%; 
+ margin-top: 100px;
+  }
+ 
+ .body-hand p{
+     width: 1109px;
+     color: var(--body-text, rgba(0, 0, 0, 0.50));
+     font-family: Heebo;
+ font-size: 24px;
+ font-weight: 400;
+ line-height: 130%; 
+ margin-top: 40px;
+ }
+ .body-hand button{
+     color: #FFF;
+ text-align: center;
+ font-size: 30px;
+ font-weight: 700;
+ width: 300px;
+ height: 75px;
+ border-radius: 50px;
+ background: var(--button-gradiant, linear-gradient(180deg, #259385 0%, #159685 100%));
+ box-shadow: 0px 20px 40px 0px rgba(21, 113, 101, 0.20);
+ border: none;
+ margin-top: 40px;
+ }
+ .body img{
+    margin-top: 100px;
+ }
+ 
+ #yoga{
+   padding: 120px;
+ }
+   
+ .yoga{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+ }
+ .yoga-hero img{
+    margin-top: 60px;
+ }
+ .yoga-hero {
+    text-align: center;
+    background: url(./foto/Subtract.png) no-repeat center/cover;
+    height: 500px;
+    
+ }
+ .yoga-hero h1{
+    color: #000;
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 15px;
+ }
+ .yoga-hero p{
+    width: 270px;
+    color: #000;
+    text-align: center;
+    font-family: Heebo;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 130%; /* 23.4px */
+    margin-top: 10px;
+ 
+ }
+ .yoga-hero button{
+    color: #FFF;
+ text-align: center;
+ font-size: 24px;
+ font-weight: 400;
+ width: 200px;
+ height: 45px;
+ border-radius: 80px;
+ background: var(--button-gradiant, linear-gradient(180deg, #259385 0%, #159685 100%));
+ box-shadow: 0px 20px 40px 0px rgba(21, 113, 101, 0.20);
+ border: none;
+ margin-top: 20px;
+ }
+  
+  
+
+  
+  .self-need{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    
+  }
+  .self-need h1{
+    width: 700px;
+    font-family: 'Merienda', cursive;
+    text-align: center;
+    color: #000;
+ font-size: 54px;
+ font-weight: 400;
+ line-height: 130%;
+  
+  }
+  .self-need p{
+    width: 1105px;
+    color: var(--body-text, rgba(0, 0, 0, 0.50));
+ text-align: center;
+ font-family: Heebo;
+ font-size: 24px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 130%;
+ margin-top: 10px;
+  }
+  
+  .self-hero1{
+   display: flex;
+  }
+   .self-boy{
+    position: relative;
+    left: -52px;
+    bottom: 540px;
+   }
+  .self-yoga{
+   padding-top: 53px
+  }
+ 
+ .self-boy2{
+    background: url(./foto/rectangle.png)no-repeat center/cover;
+    width: 730px;
+    height: 233px;
+    position: relative;
+    top: 67px;
+    right: 55px;
+}
+
+ 
+ .self-boy2 h1 {
+   padding-right: 368px;
+   padding-top: 20px;
+   color: var(--sub-tittle, rgba(0, 0, 0, 0.80));
+   text-align: center;
+   font-family: Heebo;
+   font-size: 32px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   
+ }
+ .self-boy2 p {
+   width: 619px;
+height: 100px;
+   margin-left: 60px;
+   padding-top: 10px;
+   color: var(--body-text, rgba(0, 0, 0, 0.50));
+   font-family: Heebo;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 130%; /* 31.2px */
+    }
+    .self-boy3 h1{
+      margin-top: 70px;
+    margin-right: 477px;
+      color: var(--sub-tittle, rgba(0, 0, 0, 0.80));
+      text-align: center;
+      font-family: Heebo;
+      font-size: 32px;
+      font-weight: 500;
+      line-height: normal;
+    }
+    .self-boy3 p{
+      width: 619px;
+height: 100px;
+      color: var(--body-text, rgba(0, 0, 0, 0.50));
+      font-family: Heebo;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 130%; 
+      margin-top: 10px;
+    }
+
+ 
+ .self-img{
+   padding-left: 550px;
+
+ }
+ #take{
+   padding: 60px 50px;
+   background: url(./foto/list.png)no-repeat center/cover;
+ }
+  
+ .take h1{
+    font-family: 'Merienda', cursive;
+    color: #000;
+ text-align: center;
+ font-size: 54px;
+ font-weight: 400;
+ line-height: 130%; 
+ margin-top: 50px;
+
+ }
+ .take p{
+    width: 1105px;
+    color: var(--body-text, rgba(0, 0, 0, 0.50));
+ text-align: center;
+ padding-left: 300px;
+ top: 30px;
+ font-size: 24px;
+ font-weight: 400;
+ line-height: 130%; 
+ 
+ }
+ #take {
+   margin-top: -500px;
+ }
+  .take-girl{
+   display: flex;
+   align-items: flex-start;
+
+  }
+ .take-girl1 h1{
+   position: absolute;
+   margin-left: 50px;
+ }
+ .take-girl1 p{
+   position: absolute;
+  margin-top: 40px;
+  margin-left: 50px;
+
+ }
+ .take-girl1 span{
+   padding-left: 500px;
+ }
+ .take-girl{
+  display: flex;
+  align-items: flex-start;
+   fill: linear-gradient(180deg, #259385 0%, #159685 100%);
+   stroke-width: 2px;
+   stroke: #E6F8F5;
+   filter: drop-shadow(0px 9px 24px rgba(26, 127, 114, 0.23)) drop-shadow(0px 25px 30px rgba(179, 228, 221, 0.30));
+ }
+ .take-girl span{
+   width: 80px;
+   height: 80px;
+   font-size: 50px;
+ }
+ .take-foto{
+   position: relative;
+   left: 113px;
+    top: 50px;
+    
+ }
+
+   .take-img{
+      position: relative;
+      left: 194px;
+      bottom: 796px;
+   }
+ 
+ .take-hero{
+ padding-top: 100px;
+ }
+  .take-girl1 p{
+display: flex;
+
+  }
+  .take-girl1 img{
+   position: relative;
+   top: 108px;
+}
+
+#best{
+   margin-top: -500px;
+   padding: 170px 200px;
+   background: url(./foto/volna.png)no-repeat center/cover;
+}
+
+.best-boy{
+   display: flex;
+   align-items: flex-start;
+}
+
+  
+
+.best h1{
+   font-family: 'Merienda', cursive;
+   color: #000;
+   text-align: center;
+   font-size: 54px;
+   font-weight: 400;
+   line-height: 130%;
+}
+  .best p{
+   width: 1105px;
+   color: var(--body-text, rgba(0, 0, 0, 0.50));
+text-align: center;
+font-family: Heebo;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; 
+margin-left: 150px;
+top: 30px;
+  }
+  
+.best-boy{
+   position: relative;
+   right: 153px;
+  display: flex; 
+  gap: 50px;
+  
+}
+
+.best-boy2 {
+   margin: 80px 0; 
+   top: 177px;
+   width: 597px;
+   height: 200px;
+   right: 100px;
+border-radius: 15px;
+border: 4px solid #378377;
+background: linear-gradient(270deg, #C3EEE8 26.37%, rgba(195, 226, 222, 0.75) 63.87%, rgba(231, 243, 242, 0.40) 103.6%);
+}
+
+.best-boy2 h1{
+padding-right: 100px;
+   color: var(--sub-tittle, rgba(0, 0, 0, 0.80));
+text-align: right;
+font-family: Heebo;
+font-size: 32px;
+font-weight: 500;
+padding-left: 210px;
+padding-top: 20px;
+
+}
+.best-boy2 p{
+   width: 483px;
+   color: var(--body-text, rgba(0, 0, 0, 0.50));
+font-family: Heebo;
+font-size: 24px;
+font-weight: 400;
+line-height: 130%; 
+padding: 0 20px;
+padding-bottom: 10px;
+padding-left: 110px;
+
+}
+.best-foto{
+   position: relative;
+   left: -8px;
+    padding-top: 50px;
+ 
+}
+.best-boy3{
+   margin: 80px 0;
+   align-items: flex-start;
+   width: 597px;
+   height: 200px;
+   /* right: 100px; */
+border-radius: 15px;
+border: 4px solid #378377;
+background: linear-gradient(270deg, #C3EEE8 26.37%, rgba(195, 226, 222, 0.75) 63.87%, rgba(231, 243, 242, 0.40) 103.6%);
+}
+
+
+
+.best-boy3 h1{
+   color: var(--sub-tittle, rgba(0, 0, 0, 0.80));
+font-family: Heebo;
+font-size: 32px;
+font-weight: 500;
+padding: 0 20px;
+padding-top: 20px;
+}
+.best-boy3 p{
+   width: 483px;
+   color: var(--body-text, rgba(0, 0, 0, 0.50));
+font-family: Heebo;
+font-size: 24px;
+font-weight: 400;
+line-height: 130%; 
+padding: 0 20px;
+padding-bottom: 10px;
+}
+
+#love{
+   padding: 100px 100px;
+  
+}
+
+.love h1{
+   width: 700px;
+   color: #000;
+   margin-left: 400px;
+   font-family: 'Merienda', cursive;
+   font-size: 54px;
+   font-weight: 400;
+   line-height: 130%; 
+}
+.love p{
+   width: 1105px; 
+   color: var(--body-text, rgba(0, 0, 0, 0.50));
+   text-align: center;
+font-family: Heebo;
+font-size: 24px;
+font-weight: 400;
+line-height: 130%; 
+margin-left: 100px;
+}
+
+.love-deva{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.love-deva1{
+   position: relative;
+   right: 100px;
+    margin-top: -103px;
+
+}
+.love-girl{
+   position: relative;
+   left: 25px;
+    bottom: 488px;
+}
+
+
+.love-foto{
+   position: relative;
+   right: -34px;
+    top: 242px;
+}
+.love-img{
+   position: relative;
+   right: 1px;
+}
+.love-deva2{
+   margin-bottom: 350px;
+ }
+.love-deva2 h1{
+   color: var(--sub-tittle, rgba(0, 0, 0, 0.80));
+   font-family: Heebo;
+   font-size: 32px;
+   font-weight: 500;
+   margin-bottom: 15px;
+}
+.love-deva2 p{
+   width: 619px;
+   color: var(--body-text, rgba(0, 0, 0, 0.50));
+font-family: Heebo;
+font-size: 24px;
+font-weight: 400;
+line-height: 130%; 
+padding: 4px 0;
+}
+.love-deva2 button{
+   color: #FFF;
+text-align: center;
+font-family: Heebo;
+font-size: 24px;
+font-weight: 400;
+line-height: 130%;
+width: 210px;
+height: 55px;
+border-radius: 80px;
+ background: var(--button-gradiant, linear-gradient(180deg, #259385 0%, #159685 100%));
+ box-shadow: 0px 20px 40px 0px rgba(21, 113, 101, 0.20);
+ border: none;
+ margin-top: 20px;
+}
+
+
+#fitnes{
+margin-top: -450px;
+background: url(./foto/fon.png) no-repeat center/cover;
+
+}
+.fitnes-foto{
+  position: relative; 
+  right: 11px;
+  
+}
+.fitnes-love {
+   position: relative;
+   right: -121px;
+   bottom: 474px;
+}
+.fitnes-deva{
+   position: relative;
+    right: -250px;
+    bottom: 326px;
+}
+
+.fitnes-zal{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.fitnes-zal1{
+margin-bottom: 400px;
+}
+.fitnes-zal1 h1{
+   color: var(--sub-tittle, rgba(0, 0, 0, 0.80));
+font-family: Heebo;
+font-size: 32px;
+font-weight: 500;
+margin-bottom: 15px;
+}
+.fitnes-zal1 p{
+   width: 619px;
+   color: var(--body-text, rgba(0, 0, 0, 0.50));
+font-family: Heebo;
+font-size: 24px;
+font-weight: 400;
+line-height: 130%; 
+padding: 4px 0;
+}
+.fitnes-zal1 button{
+   color: #FFF;
+   text-align: center;
+   font-family: Heebo;
+   font-size: 24px;
+   font-weight: 400;
+   line-height: 130%;
+   width: 210px;
+   height: 55px;
+   border-radius: 80px;
+    background: var(--button-gradiant, linear-gradient(180deg, #259385 0%, #159685 100%));
+    box-shadow: 0px 20px 40px 0px rgba(21, 113, 101, 0.20);
+    border: none;
+    margin-top: 20px;
+}
+#end{
+   padding: 150px;
+   margin-top: -330px;
+   background: url(./foto/adina2.png) no-repeat center/cover;
+}
+.end{
+   display: flex;
+   align-items: center;
+   text-align: center;
+   flex-direction: column;
+  justify-content: space-around;
+}
+.the-end a{
+   position: relative;
+   top: 26px;
+   color: #000;
+font-family: Heebo;
+font-size: 25px;
+font-weight: 300;
+line-height: normal;
+}
+ .the-end span{
+   position: relative;
+   top: 26px;
+   width: 5px;
+   height: 50px;
+   font-size: 25px;
+   gap: 50px;
+ }
+  .the-end1 span {
+   position: relative;
+   top: 47px;
+   font-size: 35px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+  
+ 
+  
+    
+ 
+ 
+ 
+     
+     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     
